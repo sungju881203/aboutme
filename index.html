@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harry Hur</title>
+    <style>
+        html, body{
+            background-color: #fff;
+            font-family: Arial;
+            color:#999;
+            font-size: 20px;
+            width:100%;
+            height: 100%;
+            padding:0px;
+            margin:0px;
+            transition: font-size 0.5s;
+        }
+        a{
+            color:#3b5999;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        h2{
+            color:#23282b;
+            font-size: 40px;
+            font-weight: normal;
+        }
+        p{
+            line-height: 32px;
+        }
+        aside{
+            background-color: #eee;
+            width:50%;
+            height: 100%;
+            display: block;
+            position: fixed;
+            float:left;
+            padding:3% 7%;
+            box-sizing: border-box;
+            background:url("http://imgur.com/epkj43j.png") no-repeat;
+            background-size:cover;
+            background-position: center center;
+            transition: width 0.8s;
+            transition: padding 0.5s;
+            top: 0; bottom: 0; left: 0; right: 50%;
+        }
+        article{
+            width:36%;
+            display: block;
+            position: relative;
+            float:right;
+            padding:3% 7%;
+            transition: padding 0.5s;
+        }
+        .logo{
+            width:78px;
+        }
+        .avatar{
+            border-radius: 50%;
+            width:96px;
+            height: 96px;
+        }
+        ul{
+            list-style-type: none;
+            line-height: 40px;
+            margin:0px;
+            padding:0px;
+        }
+        span{
+            color: #3b5999;
+        }
+        footer ul{
+            position: relative;
+            border-top:1px solid #ccc;
+            width:100%;
+            margin-top:30px;
+            padding-top:10px;
+            padding-bottom:30px;
+        }
+        footer{
+            position: relative;
+        }
+        footer ul li{
+            display: inline-block;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding-right:10px;
+            margin-right:10px;
+            line-height: normal;
+            border-right:1px solid #eee;
+        }
+        footer ul li:nth-last-child(1){
+            padding-right:0px;
+            margin-right:0px;
+            border-right:none;
+        }
+        footer a{
+            color: #999;
+        }
+
+        /* Responsive code */
+        @media screen and (max-width : 768px) {
+            html, body{
+                font-size:18px;
+            }
+            h2{
+                margin:20px 0px;
+            }
+            aside{
+                position: relative;
+                width:100%;
+                height: 90%;
+                padding:10% 7%;
+                float:left;
+                display: none;
+            }
+            article{
+                width:86%;
+                height: 10%;
+                float:left;
+                padding:7% 7%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<aside>
+    <img class="logo" src="http://www.iconsdb.com/icons/preview/orange/about-me-3-xxl.png" alt="me">
+</aside>
+
+<article>
+    <img class="avatar" src="http://imgur.com/cVYWnIM.jpg">
+    <h2>Harry Hur</h2>
+    <p>Harry is aspiring full-stack web developer. His goal is to land a career in a startup company as a junior web developer.
+        Currently, he is assisting AngularJS project building education platform in Korea.
+    </p>
+    <ul>
+        <li>Skills: <span>HTML, CSS, Javascript, C#, Java </span></li>
+        <li>Tools: <span>ASP.NET, Visual Studio, Webstorm, Git</span></li>
+        <li>Education: <span>Stony Brook University (Applied Math / Economics)</span></li>
+        <li>Work Experience: <span><br/>
+            &emsp;&emsp;&emsp;Option Research Intern @ Shapiro Hedge Fund, NY<br/>
+            &emsp;&emsp;&emsp;Intranet Security Administrator @ Korean Air Force, Korea<br/>
+            &emsp;&emsp;&emsp;Intern Web Developer @ Xinno Corp, NJ</span></li>
+        <li>Hobby: <span>League of Legends, Swimming, Lego</span></li>
+        <li>Mobile: <span>917.517.2934</span></li>
+    </ul>
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/harry.s.hur" target="_blank">Facebook</a></li>
+            <li><a href="https://github.com/sungju1203" target="_blank">Github</a></li>
+            <li><a href="mailto:sungju1203@hotmail.com">sungju1203@hotmail.com</a></li>
+        </ul>
+    </footer>
+</article>
+</body>
+
+</html>
